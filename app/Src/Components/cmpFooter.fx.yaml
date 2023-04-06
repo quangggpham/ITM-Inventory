@@ -1,0 +1,16 @@
+cmpFooter As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =30
+    Width: =1366
+    X: =0
+    Y: =0
+    ZIndex: =2
+
+    Label7 As label:
+        Height: =30
+        Size: =12
+        Text: ="© " & Text(Now(),"[$-en-US]yyyy") & " Robert Bosch GmbH, all rights reserved."
+        Width: =400
+        X: =28
+        ZIndex: =1
+

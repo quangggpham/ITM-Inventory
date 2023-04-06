@@ -1,0 +1,61 @@
+{
+  "115c5a37-bf3b-496f-a75e-2e2171e3b97d": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1627/1.0.1627.3238/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://bosch.sharepoint.com/sites/msteams_8237779": {
+        "dataSources": {
+          "ITM Inventory": {
+            "tableName": "4b3373f6-dd79-4706-899d-75519725c22b"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "ITM Inventory"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "115c5a37-bf3b-496f-a75e-2e2171e3b97d"
+  },
+  "381e5f70-9a05-4b6d-b3e6-38c70af6901c": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/releases/ase-v3/1.0.1622.3202/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "381e5f70-9a05-4b6d-b3e6-38c70af6901c"
+  },
+  "cb3f006a-e72f-411b-9970-870c74943175": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1624/1.0.1624.3220/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "cb3f006a-e72f-411b-9970-870c74943175"
+  }
+}

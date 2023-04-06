@@ -1,0 +1,17 @@
+cmpTopLeftBack As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =100
+    Width: =1366
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Icon2_1 As icon.BackArrow:
+        Height: =35
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        Width: =35
+        X: =5
+        Y: =12
+        ZIndex: =1
+

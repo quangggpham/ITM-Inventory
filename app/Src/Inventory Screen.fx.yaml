@@ -1,0 +1,331 @@
+"'Inventory Screen' As screen":
+    OnVisible: |-
+        =ClearCollect(ITMList,{
+           
+        })
+
+    cmpFooter_1 As cmpFooter:
+        Y: =738
+        ZIndex: =4
+
+    Body_Inven As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =638
+        Width: =1366
+        Y: =100
+        ZIndex: =6
+
+        Table_Main As groupContainer.manualLayoutContainer:
+            Height: =578
+            Width: =1366
+            Y: =60
+            ZIndex: =1
+
+            "Gallerymain As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+                BorderThickness: =1
+                Height: =538
+                Items: |-
+                    =Filter(
+                        Search(
+                            'ITM Inventory',
+                            TextInputSeach.Text,
+                            "Title",
+                            "Description",
+                            "IP_x0020_Address_x002a_"
+                        ),
+                        Dropdown1.Selected.Value = "ALL" || Dropdown1.Selected.Value = 'Location 2 (Loop, AL, EL...)*'
+                    )
+                Layout: =Layout.Vertical
+                TemplatePadding: =0
+                TemplateSize: =75
+                Width: =1366
+                Y: =40
+                ZIndex: =1
+
+                Title1 As label:
+                    Align: =Align.Center
+                    Height: =75
+                    OnSelect: =Select(Parent)
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =18
+                    Text: =ThisItem.'IT End Device Name*'
+                    Width: =300
+                    X: =2
+                    ZIndex: =1
+
+                NextArrow1 As icon.ChevronRight:
+                    AccessibleLabel: =Self.Tooltip
+                    Color: =RGBA(0, 94, 146, 1)
+                    Fill: =RGBA(204, 231, 246, 1)
+                    Height: =75
+                    Icon: =Icon.ChevronRight
+                    OnSelect: |+
+                        =Set(_selectedDevice, ThisItem);
+                        ViewForm('Risk Assessment Edit');
+                        ViewForm(Antivirus_Edit);
+                        ViewForm('Backup&restore_Edit');
+                        ViewForm(GeneralInto_Edit);
+                        ViewForm(SystemNetworkInfo_Edit);
+                        ViewForm(DataSecure_Edit);
+                        Navigate(
+                            'Edit screen',
+                            ScreenTransition.Fade,
+                            {SelectedItem: Gallerymain.Selected}
+                        );
+                        
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    TabIndex: =0
+                    Tooltip: ="View item details"
+                    Width: =140
+                    X: =1226
+                    ZIndex: =2
+
+                Separator1 As rectangle:
+                    Height: =1
+                    OnSelect: =Select(Parent)
+                    Width: =Parent.TemplateWidth
+                    Y: =Parent.TemplateHeight - 1
+                    ZIndex: =3
+
+                Description As label:
+                    Align: =Align.Center
+                    FontWeight: =FontWeight.Semibold
+                    Height: =75
+                    OnSelect: =Select(Parent)
+                    Size: =16
+                    Text: =ThisItem.Description
+                    Width: =260
+                    X: =302
+                    ZIndex: =4
+
+                Location2 As label:
+                    Align: =Align.Center
+                    FontWeight: =FontWeight.Semibold
+                    Height: =75
+                    OnSelect: =Select(Parent)
+                    Size: =16
+                    Text: =ThisItem.'Location 2 (Loop, AL, EL...)*'
+                    X: =940
+                    ZIndex: =5
+
+                LastVirusScan As label:
+                    Align: =Align.Center
+                    Height: =74
+                    OnSelect: =Select(Parent)
+                    Size: =14
+                    Text: =ThisItem.'Lastest Virus Scan / check Date'
+                    Width: =136
+                    X: =1090
+                    Y: =1
+                    ZIndex: =6
+
+                LastBackupDate As label:
+                    Align: =Align.Center
+                    Height: =74
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.'Last Backup Date'
+                    X: =790
+                    Y: =1
+                    ZIndex: =7
+
+                IP As label:
+                    Align: =Align.Center
+                    Height: =75
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.'IP Address*'
+                    Width: =230
+                    X: =562
+                    ZIndex: =8
+
+            Devicename As label:
+                Align: =Align.Center
+                Fill: =RGBA(141, 198, 63, 1)
+                FontWeight: =FontWeight.Bold
+                Text: ="Device name"
+                Width: =300
+                ZIndex: =2
+
+            Bodygrinding As label:
+                Align: =Align.Center
+                Fill: =RGBA(141, 198, 63, 1)
+                FontWeight: =FontWeight.Bold
+                Text: ="Description"
+                Width: =260
+                X: =300
+                ZIndex: =3
+
+            Line As label:
+                Align: =Align.Center
+                Fill: =RGBA(141, 198, 63, 1)
+                FontWeight: =FontWeight.Bold
+                Text: ="Line"
+                X: =940
+                ZIndex: =4
+
+            Virusscan As label:
+                Align: =Align.Center
+                Fill: =RGBA(141, 198, 63, 1)
+                FontWeight: =FontWeight.Bold
+                Text: ="Virus scan"
+                Width: =137
+                X: =1090
+                ZIndex: =5
+
+            Backupdate As label:
+                Align: =Align.Center
+                Fill: =RGBA(141, 198, 63, 1)
+                FontWeight: =FontWeight.Bold
+                Text: ="Backup date"
+                X: =790
+                ZIndex: =6
+
+            IPaddress As label:
+                Align: =Align.Center
+                Fill: =RGBA(141, 198, 63, 1)
+                FontWeight: =FontWeight.Bold
+                Text: ="IP address"
+                Width: =230
+                X: =560
+                ZIndex: =7
+
+            Action As label:
+                Align: =Align.Center
+                Fill: =RGBA(141, 198, 63, 1)
+                FontWeight: =FontWeight.Bold
+                Text: ="Action"
+                Width: =139
+                X: =1227
+                ZIndex: =8
+
+        Rectangle3 As rectangle:
+            Fill: =RGBA(237, 237, 237, 1)
+            Height: =60
+            Width: =1366
+            ZIndex: =2
+
+        TextInputSeach As text:
+            Clear: =true
+            Default: =""
+            HintText: |-
+                ="Device name:"
+            Width: =739
+            X: =126
+            Y: =10
+            ZIndex: =3
+
+        Dropdown1 As dropdown:
+            Items: |-
+                =With(
+                    {
+                        localChoice: ForAll(
+                            Distinct(
+                                'ITM Inventory',
+                                'Location 2 (Loop, AL, EL...)*'
+                            ),
+                            {Result: ThisRecord.Value}
+                        )
+                    },
+                    ForAll(
+                        Sequence(CountRows(localChoice) + 1),
+                        {
+                            Value: If(
+                                Value = 1,
+                                "ALL",
+                                Last(
+                                    FirstN(
+                                        localChoice,
+                                        Value - 1
+                                    )
+                                ).Result
+                            )
+                        }
+                    )
+                )
+            X: =992
+            Y: =10
+            ZIndex: =4
+
+        Label6 As label:
+            Align: =Align.Center
+            Size: =16
+            Text: |-
+                ="Line:"
+            Width: =80
+            X: =912
+            Y: =10
+            ZIndex: =5
+
+        Label6_1 As label:
+            Align: =Align.Center
+            Size: =16
+            Text: |-
+                ="Seach:"
+            Width: =80
+            X: =46
+            Y: =10
+            ZIndex: =6
+
+    Header_Inven As groupContainer.manualLayoutContainer:
+        Height: =100
+        Width: =1366
+        ZIndex: =7
+
+        cmpHeader_1 As cmpHeader:
+
+        Label1_4 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Bold
+            Height: =55
+            Size: =24
+            Text: ="ITM INVENTORY"
+            Width: =1366
+            ZIndex: =2
+
+        Icon1 As icon.AddDocument:
+            Height: =50
+            Icon: =Icon.AddDocument
+            OnSelect: =
+            Width: =50
+            X: =22
+            Y: =25
+            ZIndex: =4
+
+        Label2 As label:
+            Color: =RGBA(0, 18, 107, 1)
+            Height: =50
+            Size: =14
+            Text: ="Add New Device"
+            Width: =152
+            X: =72
+            Y: =25
+            ZIndex: =5
+
+        Button3 As button:
+            Color: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            HoverBorderColor: =
+            HoverColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =
+            OnSelect: |-
+                =NewForm(Create_form);
+                Navigate('Ceate screen1',ScreenTransition.Fade);
+            PressedBorderColor: =
+            PressedColor: =
+            PressedFill: =
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Text: =""
+            Width: =202
+            X: =22
+            Y: =25
+            ZIndex: =6
+

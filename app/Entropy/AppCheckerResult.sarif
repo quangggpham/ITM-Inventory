@@ -1,0 +1,3737 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.4.json",
+  "runs": [
+    {
+      "columnKind": "utf16CodeUnits",
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "results": [
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Inventory Screen'.Body_Inven.Table_Main.Gallerymain.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Inventory Screen'.Body_Inven.Table_Main.Gallerymain.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 82,
+                  "snippet": {
+                    "text": "\"Title\""
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Inventory Screen",
+                "type": "'Inventory Screen'.Body_Inven.Table_Main.Gallerymain"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Search"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cmpTopLeftBack.Icon2_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "cmpTopLeftBack.Icon2_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "cmpTopLeftBack",
+                "type": "cmpTopLeftBack.Icon2_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cmpTopLeftBack.Icon2_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "cmpTopLeftBack.Icon2_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "cmpTopLeftBack",
+                "type": "cmpTopLeftBack.Icon2_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Inventory Screen'.Body_Inven.TextInputSeach.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Inventory Screen'.Body_Inven.TextInputSeach.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Inventory Screen",
+                "type": "'Inventory Screen'.Body_Inven.TextInputSeach"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Inventory Screen'.Body_Inven.Dropdown1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Inventory Screen'.Body_Inven.Dropdown1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Inventory Screen",
+                "type": "'Inventory Screen'.Body_Inven.Dropdown1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Inventory Screen'.Body_Inven.Table_Main.Gallerymain.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Inventory Screen'.Body_Inven.Table_Main.Gallerymain.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Inventory Screen",
+                "type": "'Inventory Screen'.Body_Inven.Table_Main.Gallerymain"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Inventory Screen'.Body_Inven.Table_Main.Gallerymain.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Inventory Screen'.Body_Inven.Table_Main.Gallerymain.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Inventory Screen",
+                "type": "'Inventory Screen'.Body_Inven.Table_Main.Gallerymain"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Header_Create.B_Back_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Header_Create.B_Back_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Header_Create.B_Back_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Header_Create.B_Back_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Header_Create.B_Back_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Header_Create.B_Back_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Header_Create.Icon3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Header_Create.Icon3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Header_Create.Icon3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Header_Create.Icon3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Header_Create.Icon3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Header_Create.Icon3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'IT End Device Name*_DataCard4'.DataCardValue157.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'IT End Device Name*_DataCard4'.DataCardValue157.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'IT End Device Name*_DataCard4'.DataCardValue157"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'MAE Relation Name*_DataCard4'.DataCardValue158.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'MAE Relation Name*_DataCard4'.DataCardValue158.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'MAE Relation Name*_DataCard4'.DataCardValue158"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Host Name*_DataCard4'.DataCardValue159.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Host Name*_DataCard4'.DataCardValue159.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Host Name*_DataCard4'.DataCardValue159"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Evaluation (Man ZoneType)*_DataCard4'.DataCardValue160.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Evaluation (Man ZoneType)*_DataCard4'.DataCardValue160.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Evaluation (Man ZoneType)*_DataCard4'.DataCardValue160"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'IP Address*_DataCard4'.DataCardValue161.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'IP Address*_DataCard4'.DataCardValue161.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'IP Address*_DataCard4'.DataCardValue161"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.Description_DataCard4.DataCardValue162.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.Description_DataCard4.DataCardValue162.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.Description_DataCard4.DataCardValue162"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Status*_DataCard4'.DataCardValue163.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Status*_DataCard4'.DataCardValue163.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Status*_DataCard4'.DataCardValue163"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Operating System/ Software Version/ Firmware Version*_DataCard4'.DataCardValue164.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Operating System/ Software Version/ Firmware Version*_DataCard4'.DataCardValue164.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Operating System/ Software Version/ Firmware Version*_DataCard4'.DataCardValue164"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.CPU_DataCard4.DataCardValue165.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.CPU_DataCard4.DataCardValue165.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.CPU_DataCard4.DataCardValue165"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.RAM_DataCard4.DataCardValue166.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.RAM_DataCard4.DataCardValue166.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.RAM_DataCard4.DataCardValue166"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.HDD_DataCard4.DataCardValue167.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.HDD_DataCard4.DataCardValue167.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.HDD_DataCard4.DataCardValue167"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'MAC Address_DataCard4'.DataCardValue168.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'MAC Address_DataCard4'.DataCardValue168.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'MAC Address_DataCard4'.DataCardValue168"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Outlet Port_DataCard4'.DataCardValue169.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Outlet Port_DataCard4'.DataCardValue169.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Outlet Port_DataCard4'.DataCardValue169"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'VLAN ID*_DataCard4'.DataCardValue170.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'VLAN ID*_DataCard4'.DataCardValue170.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'VLAN ID*_DataCard4'.DataCardValue170"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Network Address_DataCard4'.DataCardValue171.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Network Address_DataCard4'.DataCardValue171.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Network Address_DataCard4'.DataCardValue171"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Status Reason*_DataCard4'.DataCardValue172.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Status Reason*_DataCard4'.DataCardValue172.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Status Reason*_DataCard4'.DataCardValue172"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Network Segment* (Zone Communication)_DataCard4'.DataCardValue173.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Network Segment* (Zone Communication)_DataCard4'.DataCardValue173.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Network Segment* (Zone Communication)_DataCard4'.DataCardValue173"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Hardware Type*_DataCard4'.DataCardValue174.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Hardware Type*_DataCard4'.DataCardValue174.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Hardware Type*_DataCard4'.DataCardValue174"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.Model_DataCard4.DataCardValue175.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.Model_DataCard4.DataCardValue175.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.Model_DataCard4.DataCardValue175"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Serial No_DataCard4'.DataCardValue176.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Serial No_DataCard4'.DataCardValue176.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Serial No_DataCard4'.DataCardValue176"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Manufactured by_DataCard4'.DataCardValue177.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Manufactured by_DataCard4'.DataCardValue177.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Manufactured by_DataCard4'.DataCardValue177"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'USB Port Number_DataCard4'.DataCardValue178.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'USB Port Number_DataCard4'.DataCardValue178.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'USB Port Number_DataCard4'.DataCardValue178"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Used USB Port _DataCard4'.DataCardValue179.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Used USB Port _DataCard4'.DataCardValue179.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Used USB Port _DataCard4'.DataCardValue179"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Network Port Number_DataCard4'.DataCardValue180.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Network Port Number_DataCard4'.DataCardValue180.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Network Port Number_DataCard4'.DataCardValue180"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Used Network Port_DataCard4'.DataCardValue181.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Used Network Port_DataCard4'.DataCardValue181.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Used Network Port_DataCard4'.DataCardValue181"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'A-SC_DataCard4'.DataCardValue182.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'A-SC_DataCard4'.DataCardValue182.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'A-SC_DataCard4'.DataCardValue182"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'C-SC_DataCard4'.DataCardValue183.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'C-SC_DataCard4'.DataCardValue183.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'C-SC_DataCard4'.DataCardValue183"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'I-SC_DataCard4'.DataCardValue184.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'I-SC_DataCard4'.DataCardValue184.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'I-SC_DataCard4'.DataCardValue184"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Location 1 (Building, Room)*_DataCard4'.DataCardValue185.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Location 1 (Building, Room)*_DataCard4'.DataCardValue185.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Location 1 (Building, Room)*_DataCard4'.DataCardValue185"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Location 2 (Loop, AL, EL...)*_DataCard4'.DataCardValue186.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Location 2 (Loop, AL, EL...)*_DataCard4'.DataCardValue186.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Location 2 (Loop, AL, EL...)*_DataCard4'.DataCardValue186"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'MAE Operator* (A.K.A. MAE Owner)_DataCard4'.DataCardValue187.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'MAE Operator* (A.K.A. MAE Owner)_DataCard4'.DataCardValue187.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'MAE Operator* (A.K.A. MAE Owner)_DataCard4'.DataCardValue187"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Operating Department_DataCard4'.DataCardValue188.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Operating Department_DataCard4'.DataCardValue188.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Operating Department_DataCard4'.DataCardValue188"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Local ITM*_DataCard4'.DataCardValue189.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Local ITM*_DataCard4'.DataCardValue189.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Local ITM*_DataCard4'.DataCardValue189"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Local ITM Proxy*_DataCard4'.DataCardValue190.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Local ITM Proxy*_DataCard4'.DataCardValue190.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Local ITM Proxy*_DataCard4'.DataCardValue190"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'ITM Planner*_DataCard4'.DataCardValue191.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'ITM Planner*_DataCard4'.DataCardValue191.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'ITM Planner*_DataCard4'.DataCardValue191"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'ITM Technician*_DataCard4'.DataCardValue192.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'ITM Technician*_DataCard4'.DataCardValue192.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'ITM Technician*_DataCard4'.DataCardValue192"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'USB Blocking _DataCard4'.DataCardValue193.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'USB Blocking _DataCard4'.DataCardValue193.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'USB Blocking _DataCard4'.DataCardValue193"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Backup Frequency_DataCard4'.DataCardValue194.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Backup Frequency_DataCard4'.DataCardValue194.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Backup Frequency_DataCard4'.DataCardValue194"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Backup Method _DataCard4'.DataCardValue195.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Backup Method _DataCard4'.DataCardValue195.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Backup Method _DataCard4'.DataCardValue195"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Backup Tool_DataCard4'.DataCardValue196.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Backup Tool_DataCard4'.DataCardValue196.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Backup Tool_DataCard4'.DataCardValue196"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Backup Plans_DataCard5'.DataCardValue197.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Backup Plans_DataCard5'.DataCardValue197.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Backup Plans_DataCard5'.DataCardValue197"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Last Backup Date_DataCard5'.DataCardValue198.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Last Backup Date_DataCard5'.DataCardValue198.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Last Backup Date_DataCard5'.DataCardValue198"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Anti-Virus Method_DataCard5'.DataCardValue199.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Anti-Virus Method_DataCard5'.DataCardValue199.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Anti-Virus Method_DataCard5'.DataCardValue199"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Virus Tool_DataCard5'.DataCardValue200.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Virus Tool_DataCard5'.DataCardValue200.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Virus Tool_DataCard5'.DataCardValue200"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Lastest Virus Scan / check Date_DataCard5'.DataCardValue201.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Lastest Virus Scan / check Date_DataCard5'.DataCardValue201.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Lastest Virus Scan / check Date_DataCard5'.DataCardValue201"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Result of Last Scanning_DataCard5'.DataCardValue202.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Result of Last Scanning_DataCard5'.DataCardValue202.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Result of Last Scanning_DataCard5'.DataCardValue202"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Risk Assessment Document ID_DataCard4'.DataCardValue203.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Risk Assessment Document ID_DataCard4'.DataCardValue203.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Risk Assessment Document ID_DataCard4'.DataCardValue203"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Patch Management _DataCard4'.DataCardValue204.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.'Patch Management _DataCard4'.DataCardValue204.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.'Patch Management _DataCard4'.DataCardValue204"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.Attachments_DataCard4.DataCardValue205.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Ceate screen1'.Body_Create.Create_form.Attachments_DataCard4.DataCardValue205.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Ceate screen1",
+                "type": "'Ceate screen1'.Body_Create.Create_form.Attachments_DataCard4.DataCardValue205"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.'View_Backup&restore'.'Backup&restore_Edit'.'Backup Frequency_DataCard8_1'.DataCardValue96_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.'View_Backup&restore'.'Backup&restore_Edit'.'Backup Frequency_DataCard8_1'.DataCardValue96_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section4.'View_Backup&restore'.'Backup&restore_Edit'.'Backup Frequency_DataCard8_1'.DataCardValue96_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.'View_Backup&restore'.'Backup&restore_Edit'.'Backup Method _DataCard4_1'.DataCardValue97_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.'View_Backup&restore'.'Backup&restore_Edit'.'Backup Method _DataCard4_1'.DataCardValue97_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section4.'View_Backup&restore'.'Backup&restore_Edit'.'Backup Method _DataCard4_1'.DataCardValue97_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.'View_Backup&restore'.'Backup&restore_Edit'.'Backup Tool_DataCard6_1'.DataCardValue98_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.'View_Backup&restore'.'Backup&restore_Edit'.'Backup Tool_DataCard6_1'.DataCardValue98_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section4.'View_Backup&restore'.'Backup&restore_Edit'.'Backup Tool_DataCard6_1'.DataCardValue98_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.'View_Backup&restore'.'Backup&restore_Edit'.'Backup Plans_DataCard2_1'.DataCardValue99_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.'View_Backup&restore'.'Backup&restore_Edit'.'Backup Plans_DataCard2_1'.DataCardValue99_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section4.'View_Backup&restore'.'Backup&restore_Edit'.'Backup Plans_DataCard2_1'.DataCardValue99_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.'View_Backup&restore'.'Backup&restore_Edit'.'Last Backup Date_DataCard2_1'.DataCardValue100_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.'View_Backup&restore'.'Backup&restore_Edit'.'Last Backup Date_DataCard2_1'.DataCardValue100_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section4.'View_Backup&restore'.'Backup&restore_Edit'.'Last Backup Date_DataCard2_1'.DataCardValue100_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.View_AntiVirus.Antivirus_Edit.'Anti-Virus Method_DataCard3_1'.DataCardValue152_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.View_AntiVirus.Antivirus_Edit.'Anti-Virus Method_DataCard3_1'.DataCardValue152_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section4.View_AntiVirus.Antivirus_Edit.'Anti-Virus Method_DataCard3_1'.DataCardValue152_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.View_AntiVirus.Antivirus_Edit.'Virus Tool_DataCard3_1'.DataCardValue153_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.View_AntiVirus.Antivirus_Edit.'Virus Tool_DataCard3_1'.DataCardValue153_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section4.View_AntiVirus.Antivirus_Edit.'Virus Tool_DataCard3_1'.DataCardValue153_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.View_AntiVirus.Antivirus_Edit.'Lastest Virus Scan / check Date_DataCard3_1'.DataCardValue154_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.View_AntiVirus.Antivirus_Edit.'Lastest Virus Scan / check Date_DataCard3_1'.DataCardValue154_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section4.View_AntiVirus.Antivirus_Edit.'Lastest Virus Scan / check Date_DataCard3_1'.DataCardValue154_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.View_AntiVirus.Antivirus_Edit.'Result of Last Scanning_DataCard3_1'.DataCardValue155_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.View_AntiVirus.Antivirus_Edit.'Result of Last Scanning_DataCard3_1'.DataCardValue155_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section4.View_AntiVirus.Antivirus_Edit.'Result of Last Scanning_DataCard3_1'.DataCardValue155_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.View_RiskAssessment.'Risk Assessment Edit'.'Risk Assessment Document ID_DataCard5_1'.DataCardValue252_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.View_RiskAssessment.'Risk Assessment Edit'.'Risk Assessment Document ID_DataCard5_1'.DataCardValue252_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section4.View_RiskAssessment.'Risk Assessment Edit'.'Risk Assessment Document ID_DataCard5_1'.DataCardValue252_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.View_RiskAssessment.'Risk Assessment Edit'.'Patch Management abc_1'.DataCardValue253_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section4.View_RiskAssessment.'Risk Assessment Edit'.'Patch Management abc_1'.DataCardValue253_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section4.View_RiskAssessment.'Risk Assessment Edit'.'Patch Management abc_1'.DataCardValue253_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'A-SC_DataCard3'.DataCardValue129.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'A-SC_DataCard3'.DataCardValue129.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'A-SC_DataCard3'.DataCardValue129"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'C-SC_DataCard3'.DataCardValue130.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'C-SC_DataCard3'.DataCardValue130.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'C-SC_DataCard3'.DataCardValue130"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'I-SC_DataCard3'.DataCardValue131.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'I-SC_DataCard3'.DataCardValue131.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'I-SC_DataCard3'.DataCardValue131"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'MAE Operator* (A.K.A. MAE Owner)_DataCard3'.DataCardValue134.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'MAE Operator* (A.K.A. MAE Owner)_DataCard3'.DataCardValue134.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'MAE Operator* (A.K.A. MAE Owner)_DataCard3'.DataCardValue134"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'Operating Department_DataCard3'.DataCardValue135.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'Operating Department_DataCard3'.DataCardValue135.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'Operating Department_DataCard3'.DataCardValue135"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'Local ITM*_DataCard3'.DataCardValue136.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'Local ITM*_DataCard3'.DataCardValue136.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'Local ITM*_DataCard3'.DataCardValue136"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'Local ITM Proxy*_DataCard3'.DataCardValue137.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'Local ITM Proxy*_DataCard3'.DataCardValue137.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'Local ITM Proxy*_DataCard3'.DataCardValue137"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'ITM Planner*_DataCard3'.DataCardValue138.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'ITM Planner*_DataCard3'.DataCardValue138.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'ITM Planner*_DataCard3'.DataCardValue138"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'ITM Technician*_DataCard3'.DataCardValue139.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'ITM Technician*_DataCard3'.DataCardValue139.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section3.DataSecure_Edit.'ITM Technician*_DataCard3'.DataCardValue139"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Host Name*_DataCard2'.DataCardValue52.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Host Name*_DataCard2'.DataCardValue52.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Host Name*_DataCard2'.DataCardValue52"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'IP Address*_DataCard2'.DataCardValue54.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'IP Address*_DataCard2'.DataCardValue54.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'IP Address*_DataCard2'.DataCardValue54"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Operating System/ Software Version/ Firmware Version*_DataCard2'.DataCardValue57.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Operating System/ Software Version/ Firmware Version*_DataCard2'.DataCardValue57.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Operating System/ Software Version/ Firmware Version*_DataCard2'.DataCardValue57"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.CPU_DataCard2.DataCardValue58.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.CPU_DataCard2.DataCardValue58.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.CPU_DataCard2.DataCardValue58"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.RAM_DataCard2.DataCardValue59.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.RAM_DataCard2.DataCardValue59.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.RAM_DataCard2.DataCardValue59"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.HDD_DataCard2.DataCardValue60.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.HDD_DataCard2.DataCardValue60.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.HDD_DataCard2.DataCardValue60"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'MAC Address_DataCard2'.DataCardValue61.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'MAC Address_DataCard2'.DataCardValue61.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'MAC Address_DataCard2'.DataCardValue61"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Outlet Port_DataCard2'.DataCardValue62.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Outlet Port_DataCard2'.DataCardValue62.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Outlet Port_DataCard2'.DataCardValue62"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'VLAN ID*_DataCard2'.DataCardValue63.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'VLAN ID*_DataCard2'.DataCardValue63.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'VLAN ID*_DataCard2'.DataCardValue63"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Network Address_DataCard2'.DataCardValue64.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Network Address_DataCard2'.DataCardValue64.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Network Address_DataCard2'.DataCardValue64"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'USB Port Number_DataCard2'.DataCardValue71.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'USB Port Number_DataCard2'.DataCardValue71.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'USB Port Number_DataCard2'.DataCardValue71"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Used USB Port _DataCard2'.DataCardValue72.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Used USB Port _DataCard2'.DataCardValue72.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Used USB Port _DataCard2'.DataCardValue72"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Network Port Number_DataCard2'.DataCardValue73.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Network Port Number_DataCard2'.DataCardValue73.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Network Port Number_DataCard2'.DataCardValue73"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Used Network Port_DataCard2'.DataCardValue74.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Used Network Port_DataCard2'.DataCardValue74.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'Used Network Port_DataCard2'.DataCardValue74"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'USB Blocking _DataCard2'.DataCardValue86.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'USB Blocking _DataCard2'.DataCardValue86.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.'USB Blocking _DataCard2'.DataCardValue86"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.Attachments_DataCard2.DataCardValue103.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.Attachments_DataCard2.DataCardValue103.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section2.SystemNetworkInfo_Edit.Attachments_DataCard2.DataCardValue103"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'IT End Device Name*_DataCard1'.DataCardValue1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'IT End Device Name*_DataCard1'.DataCardValue1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'IT End Device Name*_DataCard1'.DataCardValue1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'MAE Relation Name*_DataCard1'.DataCardValue2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'MAE Relation Name*_DataCard1'.DataCardValue2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'MAE Relation Name*_DataCard1'.DataCardValue2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Evaluation (Man ZoneType)*_DataCard1'.DataCardValue4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Evaluation (Man ZoneType)*_DataCard1'.DataCardValue4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Evaluation (Man ZoneType)*_DataCard1'.DataCardValue4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.Description_DataCard1.DataCardValue6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.Description_DataCard1.DataCardValue6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.Description_DataCard1.DataCardValue6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Status*_DataCard1'.DataCardValue7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Status*_DataCard1'.DataCardValue7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Status*_DataCard1'.DataCardValue7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Status Reason*_DataCard1'.DataCardValue16.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Status Reason*_DataCard1'.DataCardValue16.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Status Reason*_DataCard1'.DataCardValue16"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Network Segment* (Zone Communication)_DataCard1'.DataCardValue17.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Network Segment* (Zone Communication)_DataCard1'.DataCardValue17.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Network Segment* (Zone Communication)_DataCard1'.DataCardValue17"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Hardware Type*_DataCard1'.DataCardValue18.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Hardware Type*_DataCard1'.DataCardValue18.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Hardware Type*_DataCard1'.DataCardValue18"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.Model_DataCard1.DataCardValue19.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.Model_DataCard1.DataCardValue19.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.Model_DataCard1.DataCardValue19"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Serial No_DataCard1'.DataCardValue20.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Serial No_DataCard1'.DataCardValue20.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Serial No_DataCard1'.DataCardValue20"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Manufactured by_DataCard1'.DataCardValue21.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Manufactured by_DataCard1'.DataCardValue21.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Manufactured by_DataCard1'.DataCardValue21"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Location 1 (Building, Room)*_DataCard1'.DataCardValue29.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Location 1 (Building, Room)*_DataCard1'.DataCardValue29.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Location 1 (Building, Room)*_DataCard1'.DataCardValue29"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Location 2 (Loop, AL, EL...)*_DataCard1'.DataCardValue30.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Location 2 (Loop, AL, EL...)*_DataCard1'.DataCardValue30.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Body_Edit.Section1.GeneralInto_Edit.'Location 2 (Loop, AL, EL...)*_DataCard1'.DataCardValue30"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Navbar.B_Edit.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Navbar.B_Edit.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Navbar.B_Edit"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Navbar.B_Edit.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Navbar.B_Edit.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Navbar.B_Edit"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Navbar.GoLeft.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Navbar.GoLeft.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Navbar.GoLeft"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Navbar.GoLeft.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Navbar.GoLeft.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Navbar.GoLeft"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Navbar.GoRight.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Navbar.GoRight.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Navbar.GoRight"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Navbar.GoRight.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Navbar.GoRight.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Navbar.GoRight"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Navbar.Icon2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Navbar.Icon2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Navbar.Icon2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.Navbar.Icon2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.Navbar.Icon2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Edit screen",
+                "type": "'Edit screen'.Navbar.Icon2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "Screen1",
+                "type": "Screen1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Low"
+          },
+          "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-DataSourceDefaultMaxRowsLimit",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edit screen'.SelectedItem"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edit screen'.SelectedItem",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "SelectedItem",
+                "module": "Edit screen",
+                "type": "'Edit screen'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 5
+        }
+      ],
+      "tool": {
+        "driver": {
+          "fullName": "PowerApps app checker",
+          "name": "PowerApps app checker",
+          "rules": [
+            {
+              "id": "app-SuggestRemoteExecutionHint",
+              "messageStrings": {
+                "issue": {
+                  "text": "Delegation warning. The \"{0}\" part of this formula might not work correctly on large data sets."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "If your data set exceeds the 500 record limit but contains less than 2,000 records, try resetting the limit.",
+                  "Try simplifying the formula.",
+                  "Try moving your data to a different data source."
+                ],
+                "level": "Medium",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "acc-AccessibleLabelNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing accessible label"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Edit the accessible label property to describe the item."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+              }
+            },
+            {
+              "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing tab stop"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Set TabIndex to 0 or greater to ensure that interactive elements have a tab stop."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
+              }
+            },
+            {
+              "id": "acc-ReadableScreenNameNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Revise screen name"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Give the screen  a title that describes what's on the screen or what it's used for."
+                ],
+                "level": "Low",
+                "primaryCategory": "accessibility",
+                "whyFix": "People who are blind, have low vision, or a reading disability rely on screen titles to navigate using the screen reader. "
+              }
+            },
+            {
+              "id": "app-DataSourceDefaultMaxRowsLimit",
+              "messageStrings": {
+                "issue": {
+                  "text": "Data row limit for non-delegable queries is more than 500"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Update 'Data row limit for non-delegable queries' in the advanced app settings."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "A 'data row limit' more than 500 may result in a slower app when running non-delegable queries, because the app will have to process every row itself, rather than running the query on the server."
+              }
+            },
+            {
+              "id": "app-UnusedVariables",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unused variable"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove the unused variable."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
+              }
+            }
+          ],
+          "version": "1.330"
+        }
+      }
+    }
+  ],
+  "version": "2.1.0"
+}

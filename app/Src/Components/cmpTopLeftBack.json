@@ -1,0 +1,27 @@
+{
+  "ComponentAllowCustomization": true,
+  "ComponentChangedSinceFileImport": false,
+  "ComponentManifest": {
+    "AllowAccessToGlobals": false,
+    "AllowCustomization": true,
+    "Description": "",
+    "Name": "cmpTopLeftBack",
+    "TemplateGuid": "83182d762c2b4ec9a6fafef5fcb1f75a"
+  },
+  "ComponentType": "CanvasComponent",
+  "CustomGroupControlTemplateName": "",
+  "CustomProperties": [],
+  "FirstParty": true,
+  "Id": "http://microsoft.com/appmagic/Component",
+  "IsComponentLocked": false,
+  "IsComponentTemplate": true,
+  "IsCustomGroupControlTemplate": false,
+  "IsPcfControl": false,
+  "IsPremiumPcfControl": false,
+  "IsWidgetTemplate": false,
+  "LastModifiedTimestamp": "638163494391746015",
+  "Name": "83182d762c2b4ec9a6fafef5fcb1f75a",
+  "OverridableProperties": {},
+  "TemplateOriginalName": "18a36a53a6674dd1ac0f0fceacc18e5a",
+  "Version": "638084106862239107"
+}
